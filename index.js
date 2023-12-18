@@ -33,6 +33,8 @@ function generateRandomString(round) {
     ""
   );
 
+  console.log(generatedString)
+
   return generatedString;
 }
 
@@ -52,8 +54,12 @@ let done = false;
 console.log("Start", new Date());
 while (!done) {
   done =
-    "985fd0aa8ccd6c7384bdfb01d402485e" === md5(generateRandomString(1290073)) &&
+    "985fd0aa8ccd6c7384bdfb01d402485e" === md5(generateRandomString(1290073));
+
+  if (done) {
     console.log("TIM RA ROI");
+  } 
+
 }
 
 console.log("End", new Date());
