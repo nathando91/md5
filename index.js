@@ -36,8 +36,8 @@ function generateRandomString(round) {
   return generatedString;
 }
 
-const generatedCode = generateRandomString(1290073);
-console.log(generatedCode);
+// const generatedCode = generateRandomString(1290073);
+// console.log(generatedCode);
 
 // #a1290073_rl2#7f{2-2-5}5tYPpF6qjw1jASi6lK
 // 985fd0aa8ccd6c7384bdfb01d402485e
